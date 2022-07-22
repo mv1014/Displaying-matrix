@@ -8,7 +8,7 @@ int main(){
     scanf("%d",&r);
     printf("Write the number of columns : \n");
     scanf("%d",&c);
-    int a[5][5];
+    int a[r][c];
     printf("Write the numbers of the first matrix : \n");
     for(i=0;i<r;i++){
         for(j=0;j<c;j++){
