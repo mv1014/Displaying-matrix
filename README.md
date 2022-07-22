@@ -9,7 +9,7 @@ int main(){
     printf("Write the number of columns : \n");
     scanf("%d",&c);
     int a[r][c];
-    printf("Write the numbers of the first matrix : \n");
+    printf("Write the numbers of the matrix : \n");
     for(i=0;i<r;i++){
         for(j=0;j<c;j++){
             printf("Enter the values for a[%d][%d] : \n",i+1,j+1);
